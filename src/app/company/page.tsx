@@ -98,7 +98,7 @@ export default function CompanyPage() {
                     className="object-cover w-full h-full"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-2">Co-Founder Name</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">Robert John</h3>
                 <p className="text-maerx-purple uppercase tracking-widest text-sm font-semibold">Co-Founder</p>
               </div>
             </div>

@@ -7,7 +7,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(0,229,255,0.3)] group-hover:shadow-[0_0_25px_rgba(0,229,255,0.6)] transition-shadow">
-            <Image src="/image.png" alt="Maerx Logo" width={40} height={40} className="object-cover w-full h-full" />
+            <Image src="/image.png" alt="Maerx Logo" width={80} height={40} className="object-cover w-full h-full" />
           </div>
           <span className="text-xl font-extrabold text-white tracking-widest uppercase">Maerx</span>
         </Link>
