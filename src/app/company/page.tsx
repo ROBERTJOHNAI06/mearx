@@ -83,7 +83,7 @@ export default function CompanyPage() {
                     className="object-cover w-full h-full"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-2"></h3>
+                <h3 className="text-2xl font-bold text-white mb-2">Shree Rama Victor</h3>
                 <p className="text-maerx-cyan uppercase tracking-widest text-sm font-semibold">Founder</p>
               </div>
 
