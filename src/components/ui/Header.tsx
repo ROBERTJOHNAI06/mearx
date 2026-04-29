@@ -6,10 +6,9 @@ export default function Header() {
     <header className="w-full fixed top-0 left-0 z-50 bg-maerx-dark/80 backdrop-blur-md border-b border-maerx-cyan/10">
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(0,229,255,0.3)] group-hover:shadow-[0_0_25px_rgba(0,229,255,0.6)] transition-shadow">
-            <Image src="/image.png" alt="Maerx Logo" width={80} height={40} className="object-cover w-full h-full" />
+          <div className="w-36 h-16 rounded-lg flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(0,229,255,0.0)] group-hover:shadow-[0_0_25px_rgba(0,229,255,0.0)] transition-shadow">
+            <Image src="/image.png" alt="Maerx Logo" width={120} height={120} className="object-contain" />
           </div>
-          <span className="text-xl font-extrabold text-white tracking-widest uppercase">Maerx</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           <Link href="/platform" className="text-gray-400 hover:text-white transition-colors">Platform</Link>

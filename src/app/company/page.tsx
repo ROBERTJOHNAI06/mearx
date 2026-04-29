@@ -20,8 +20,8 @@ export default function CompanyPage() {
         
         {/* Prominent Logo */}
         <div className="mb-12 relative group">
-          <div className="absolute inset-0 bg-gradient-to-r from-maerx-cyan to-maerx-purple rounded-3xl blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-500"></div>
-          <div className="relative glass-panel p-4 md:p-8 rounded-3xl border-maerx-cyan/30 flex items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-maerx-cyan to-maerx-purple rounded-3xl blur-2xl opacity-80 group-hover:opacity-70 transition-opacity duration-500"></div>
+          <div className="relative glass-panel p-4 md:p-8 rounded-3xl border-maerx-cyan/20 flex items-center justify-center">
             <Image 
               src="/image.png" 
               alt="Maerx Logo" 
@@ -83,7 +83,7 @@ export default function CompanyPage() {
                     className="object-cover w-full h-full"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-2">Founder Name</h3>
+                <h3 className="text-2xl font-bold text-white mb-2"></h3>
                 <p className="text-maerx-cyan uppercase tracking-widest text-sm font-semibold">Founder</p>
               </div>
 
