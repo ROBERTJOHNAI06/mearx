@@ -66,6 +66,43 @@ export default function CompanyPage() {
               We paired this with **Local AI**. Operating on the device itself, our conversational AI learns how each student learns, clarifying doubts and adjusting the syllabus on the fly. Meanwhile, teachers maintain complete control via admin devices, ensuring the classroom remains a unified, collaborative environment.
             </p>
           </div>
+          
+          {/* Leadership Section */}
+          <div className="glass-panel p-8 md:p-12 rounded-3xl border-[#1E88E5]/20 mt-12">
+            <h2 className="text-3xl font-bold mb-10 text-center text-white">Leadership</h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              {/* Founder */}
+              <div className="flex flex-col items-center text-center">
+                <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-maerx-cyan/30 shadow-[0_0_15px_rgba(0,229,255,0.2)]">
+                  <Image 
+                    src="/founder.png" 
+                    alt="Founder" 
+                    width={200} 
+                    height={200} 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Founder Name</h3>
+                <p className="text-maerx-cyan uppercase tracking-widest text-sm font-semibold">Founder</p>
+              </div>
+
+              {/* Co-Founder */}
+              <div className="flex flex-col items-center text-center">
+                <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-maerx-purple/30 shadow-[0_0_15px_rgba(124,77,255,0.2)]">
+                  <Image 
+                    src="/cofounder.png" 
+                    alt="Co-Founder" 
+                    width={200} 
+                    height={200} 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Co-Founder Name</h3>
+                <p className="text-maerx-purple uppercase tracking-widest text-sm font-semibold">Co-Founder</p>
+              </div>
+            </div>
+          </div>
         </div>
 
       </main>
